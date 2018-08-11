@@ -1,0 +1,16 @@
+mfocshaner ,nadavsh22
+EX: 4
+
+FILES:
+whatsappServer.cpp/h -- the implementation of the whatsapp server application
+whatsappClient.cpp/h -- the implementation of the whatsapp client application
+Protocol.cpp/h -- a protocol class which holds and defines variables which are shared by the whatsapp client/server 
+whatsappio.cpp/h -- input/output (wrtitten by the school)
+Makefile
+README
+
+REMARKS:
+The server and client are implemented as actual classes, so several objects can be created;
+Currently, the main function in each just create a single object, but it's easily
+modifiable to allow for several clients to be created.
+
